@@ -1,0 +1,14 @@
+# Ignore the Python virtual environment
+venv/
+__pycache__/
+
+# Ignore massive raw datasets
+ml_pipeline/GlobalLandTemperaturesByCity.csv
+
+# Ignore heavy trained ML models and vector indexes (users will generate these locally)
+saved_models/*.pkl
+saved_models/*.index
+
+# Ignore system files
+.DS_Store
+Thumbs.db
